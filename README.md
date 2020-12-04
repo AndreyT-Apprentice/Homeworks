@@ -1,2 +1,2 @@
-# hm_3
+# Homeworks
 Homework_3

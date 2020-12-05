@@ -124,12 +124,3 @@ for symb_1 in my_string:
         res_list.append(int(symb_1 + symb_2))
         if len(res_list) == 100:
             print(res_list)
-
-# Вариант №2
-my_string = '0123456789'
-for symb_1 in my_string:
-    for symb_2 in my_string:
-        res = int(symb_1 + symb_2)
-        res_str = str(res)
-        my_list_res = list(res_str)
-        print(my_list_res)

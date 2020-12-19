@@ -114,17 +114,17 @@ print(my_list)
 
 # в)
 new_dict = {}
-for key, value in my_dict_1.items():
+for key in my_dict_1:
     if key not in my_dict_2:
         new_dict[key] = my_dict_1[key]
 print(new_dict)
 
 # г)
 new_dict = {}
-for key, value in my_dict_1.items():
+for key in my_dict_1:
     if key not in my_dict_2:
         new_dict[key] = my_dict_1[key]
-for key, value in my_dict_2.items():
+for key in my_dict_2:
     if key not in my_dict_1:
         new_dict[key] = my_dict_2[key]
     else:
